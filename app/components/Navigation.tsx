@@ -41,7 +41,7 @@ const Navigation: React.FC = () => {
               href="#contact"
               className="ml-4 px-6 py-2 bg-gradient-to-r from-vivid-purple to-royal-blue text-white font-heading font-medium rounded-lg hover:shadow-lg hover:shadow-vivid-purple/25 transition-all duration-200"
             >
-              Let's Talk
+              Let&apos;s Talk
             </a>
           </div>
           <button
@@ -91,7 +91,7 @@ const Navigation: React.FC = () => {
               className="block mx-4 mt-4 px-6 py-3 bg-gradient-to-r from-vivid-purple to-royal-blue text-white font-heading font-medium rounded-lg text-center"
               onClick={() => setIsMenuOpen(false)}
             >
-              Let's Talk
+              Let&apos;s Talk
             </a>
           </div>
         )}

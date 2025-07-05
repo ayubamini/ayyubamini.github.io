@@ -172,7 +172,7 @@ const ContactSection: React.FC = () => {
       <div className="container mx-auto px-6 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-heading font-bold mb-4">
-            Let's Build Something Amazing
+            Let&apos;s Build Something Amazing
           </h2>
           <p className="text-xl font-body text-light-gray/60">
             Ready to turn your ideas into reality?
@@ -393,9 +393,9 @@ const ContactSection: React.FC = () => {
                 Get in touch
               </h3>
               <p className="font-body text-light-gray/70 mb-8">
-                I'm always excited to work on new projects and collaborate with
+                I&apos;m always excited to work on new projects and collaborate with
                 innovative teams. Whether you have a specific project in mind or
-                just want to explore possibilities, I'd love to hear from you.
+                just want to explore possibilities, I&apos;d love to hear from you.
               </p>
             </div>
 

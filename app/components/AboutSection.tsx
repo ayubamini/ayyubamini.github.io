@@ -1,20 +1,4 @@
-import { TechStack } from "../types";
-
 const AboutSection: React.FC = () => {
-  const techStacks: TechStack[] = [
-    { title: "Frontend", skills: "React, Next.js, Vue, TypeScript" },
-    { title: "Backend", skills: "Node.js, Python, Go, PostgreSQL" },
-    { title: "Cloud", skills: "AWS, GCP, Docker, Kubernetes" },
-    { title: "Tools", skills: "Git, CI/CD, Terraform, Jenkins" },
-  ];
-
-  const stats = [
-    { number: "8+", label: "Years Experience" },
-    { number: "50+", label: "Projects Completed" },
-    { number: "30+", label: "Happy Clients" },
-    { number: "15+", label: "Tech Stack" },
-  ];
-
   return (
     <section id="about" className="section-padding">
       <div className="container mx-auto px-6">
@@ -46,7 +30,7 @@ const AboutSection: React.FC = () => {
           <div className="lg:col-span-3 space-y-6">
             <div>
               <p className="text-xl font-body text-light-gray/90 mb-4">
-                Hey there! I'm{" "}
+                Hey there! I&apos;m{" "}
                 <span className="text-vivid-purple font-semibold">
                   Aiyoub Amini
                 </span>
@@ -61,7 +45,7 @@ const AboutSection: React.FC = () => {
                 dedicated to crafting exceptional digital experiences.
               </p>
               <p className="font-body text-light-gray/80 leading-relaxed">
-                I've had the privilege of working with Fortune 500 companies,
+                I&apos;ve had the privilege of working with Fortune 500 companies,
                 innovative startups, and everything in between. My approach
                 combines technical excellence with a deep understanding of user
                 needs, ensuring that every project not only works flawlessly but
